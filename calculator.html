@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helios-Calculator</title>
+    <link rel="stylesheet" href="./styles/calculator.css" />
+</head>
+
+<body>
+    <div class="styles">
+        <div class="group-wrapper"><img class="group" src="./images/logo.png" /></div>
+        <form class="inputs">
+            <div>
+                <label for="region-temp">Regional Temperature</label>
+                <input class="primary" type="number" required>
+            </div>
+            <!-- <div>
+                <label class="input1" for="upper-temp">Upper Surface Temperature(Approx.)</label>
+                <input type="number">
+            </div>
+            <div>
+                <label class="input2" for="lower-temp">Lower Surface Temperature(Approx.)</label>
+                <input type="number">
+            </div>
+            <div>
+                <button class="calculate" type="submit">Calculate</button>
+            </div> -->
+        </form>
+        
+    </div>
+    
+</body>
+<script>
+    const calculate = document.querySelector('.calculate')
+    calculate.addEventListener('click', (e)=>{
+        e.preventDefault();
+        const inputs = document.querySelector('.primary');
+    console.log(inputs.value);
+    const upper = document.querySelector('.input1');
+    upper.value = inputs.value;
+    upper.innerHTML = inputs.value;
+    console.log(upper.value);
+    const lower = document.querySelector('.input2');
+    lower.value = inputs.value;
+    console.log(lower.value);
+    
+
+    
+
+    })
+  
+    
+</script>
+</html>

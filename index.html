@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helios</title>
+    <style>
+        
+    .box {
+    width: 350px;
+    height: 82px;
+    }
+
+.box .try-now {
+  position: fixed;
+  width: 352px;
+  height: 82px;
+  top: 0;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: absolute;
+  width: 350px;
+  height: 82px;
+  border-radius: 45px;
+  border: 3px solid;
+  border-color: #2b303a;
+  top: 75vh;
+  left: 74vw;
+}
+.box .overlap-group:hover{
+    border-color: #000000;
+    background-color: #70AE6E;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  width: 224px;
+  height: 44px;
+  top: 24px;
+  left: 24px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.text-wrapper:hover {
+    color: #000000;
+}
+
+.box .arrow {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  top: 6px;
+  left: 235px;
+}
+
+.bg-img {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+}
+
+    </style>
+</head>
+<body>
+    <img class="bg-img" src="./images/Landing Page.png" alt="Landing_Page">
+    <div class="box">
+        <div class="try-now">
+            <a href="calculator.html">
+          <div class="overlap-group">
+            <div class="text-wrapper">Try Now</div>
+            <img class="arrow" src="./images/arrow-right-solid.svg" />
+          </div>
+        </a>
+        </div>
+      </div>
+</body>
+</html>

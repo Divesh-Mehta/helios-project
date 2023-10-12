@@ -1,0 +1,45 @@
+.box {
+    height: 82px;
+    width: 350px;
+  }
+  
+  .box .try-now {
+    height: 82px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 352px;
+  }
+  
+  .box .overlap-group {
+    border: 3px solid;
+    border-color: #2b303a;
+    border-radius: 45px;
+    height: 82px;
+    position: relative;
+    width: 350px;
+  }
+  
+  .box .text-wrapper {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    height: 44px;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+    width: 224px;
+  }
+  
+  .box .akar-icons-arrow {
+    height: 63px;
+    left: 235px;
+    position: absolute;
+    top: 6px;
+    width: 63px;
+  }
+  
