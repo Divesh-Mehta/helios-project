@@ -38,3 +38,225 @@
     width: 100%;
     gap: 30px;
   }
+
+  .bg-img{
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 99vw;
+    border: 0;
+  }
+
+
+  .box {
+    width: 773px;
+    height: 518px;
+  }
+  
+  .box .group {
+    position: fixed;
+    width: 775px;
+    height: 518px;
+    top: 0;
+    left: 0;
+    align-items: center;
+  }
+  
+  .box .overlap {
+    position: relative;
+    width: 773px;
+    height: 645px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    top: 5vh;
+    left:24vw;
+    bottom: 30vh;
+    background: linear-gradient(
+      180deg,
+      rgb(164.74, 222.31, 162.88) 0%,
+      rgb(223.74, 234, 160.72) 72.31%,
+      rgb(210.43, 183.67, 237.19) 100%
+    );
+  }
+  
+  .box .rectangle {
+    position: absolute;
+    width: 731px;
+    height: 603px;
+    top: 22px;
+    left: 22px;
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    width: 636px;
+    height: 60px;
+    top: 71px;
+    left: 70px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #323232;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .div {
+    position: absolute;
+    width: 187px;
+    height: 63px;
+    top: 185px;
+    left: 295px;
+  }
+  
+  .box .line {
+    position: absolute;
+    width: 176px;
+    height: 8px;
+    top: 55px;
+    left: 0;
+  }
+  
+  .box .text-wrapper-2 {
+    position: absolute;
+    width: 76px;
+    height: 43px;
+    top: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #2b303a;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+   .cal {
+    width: 350px;
+    height: 82px;
+    }
+
+.cal .calculate {
+  position: fixed;
+  width: 352px;
+  height: 82px;
+  top: 0;
+  left: 0;
+}
+
+.cal .overlap-group {
+  position: absolute;
+  width: 350px;
+  height: 82px;
+  border-radius: 45px;
+  border: 3px solid;
+  border-color: #2b303a;
+  top: 50vh;
+  left: 39vw;
+}
+.cal .overlap-group:hover{
+    border-color: #000000;
+    background-color: #70AE6E;
+}
+
+.cal .text-wrapper-3 {
+  position: absolute;
+  width: 224px;
+  height: 44px;
+  top: 24px;
+  left: 24px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.text-wrapper:hover {
+    color: #000000;
+}
+
+.cal .sun {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  top: 6px;
+  left: 235px;
+}
+
+.bg-img {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+}
+
+
+
+.box .p {
+  position: absolute;
+  width: 475px;
+  height: 47px;
+  top: 420px;
+  left: 150px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.box .overlap-wrapper {
+  position: absolute;
+  width: 212px;
+  height: 136px;
+  top: 535px;
+  left: 284px;
+}
+
+.box .overlap-2 {
+  position: relative;
+  width: 208px;
+  height: 136px;
+}
+
+.box .text-wrapper-4 {
+  position: absolute;
+  width: 201px;
+  height: 136px;
+  top: -45px;
+  left: 0;
+  font-family: "Gotham Black-Regular", Helvetica;
+  font-weight: 400;
+  color: #2b303a;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-5 {
+  position: absolute;
+  width: 44px;
+  height: 52px;
+  top: 0px;
+  left: 164px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #2b303a;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
