@@ -1,6 +1,8 @@
 # **Helios - Solar Energy Predictor**
 Helios is a mini project developed by a group of passionate college students, aiming to harness the power of solar energy efficiently. This project focuses on predicting solar energy production, enabling users to optimize their energy consumption and contribute to a sustainable future.
 
+Link to the hosted project: https://helios-prediction.netlify.app/
+
 ## **Features**
 **Accurate Predictions:**: Helios utilizes advanced algorithms to provide precise solar energy production forecasts based on various factors such as weather conditions, geographic location, and time of day.
 **User-Friendly Interface:**: Our intuitive interface allows users to input relevant data effortlessly and receive instant predictions, making it accessible for everyone, regardless of technical expertise.
